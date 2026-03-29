@@ -16,10 +16,10 @@ This solution works because the system acts like a receptionist that listens to 
 We used Python as a tool because it's simple and good for prototyping, its often used for machine learning and AI and is widely used in backend systems. It's used to handle question processing, perform intent classification, providing responses, and managing escalation logic. self.responses = {...} can easily be moved to a database but it is currently hardcoded with pre-made responses.
 
 The way this would work in a real world business setting is:
-~~ Customer calls
-~~ Speech-to-text converts the customers voice to text
-~~ Python system processes the question
-~~ Response is returned via text-to-speech
+1. Customer calls
+2. Speech-to-text converts the customers voice to text
+3. Python system processes the question
+4. Response is returned via text-to-speech
 ~~ If it cannot figure out the correct response, it transfers the customer to a human
 
 # Improvements
