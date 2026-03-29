@@ -22,7 +22,7 @@ The way this would work in a real world business setting is:
 4. Response is returned via text-to-speech
 5. If it cannot figure out the correct response, it transfers the customer to a human
 
-
+To maintain the system we'd need it more reliable and easy to access, an improvement would be moving the hardcoded responses to a database instead or admin dashboard. Staff should be able to update things like store hours, return policies or delivery policies without modifying the code. Reviewing customer questions that the system couldn't answer is an important maintanenance aspect as well and adding these new keywords as well as adding a method for staff to add FAQs without having to modify the code. The system should also log all customer questions and whether they were escalated, this would help identify gaps in automation and improve responses over time.
 
 ### Simple Improvements
 - Detection for multiple keywords
@@ -34,3 +34,10 @@ The way this would work in a real world business setting is:
 - Integration with inventory system
 - CRM (customer relationship management) integration for customer tracking
 - Multilingual support (specifically for French customers)
+
+### Voice Interaction Example
+Customer (phone):
+“Do you rent wheelchairs?”
+
+System (voice):
+“Yes, we offer rentals for equipment such as hospital beds, wheelchairs, and mobility aids. Rentals are typically based on a 4-week period.”
