@@ -20,7 +20,17 @@ The way this would work in a real world business setting is:
 2. Speech-to-text converts the customers voice to text
 3. Python system processes the question
 4. Response is returned via text-to-speech
-~~ If it cannot figure out the correct response, it transfers the customer to a human
+5. If it cannot figure out the correct response, it transfers the customer to a human
 
-# Improvements
+
+
+### Simple Improvements
 - Detection for multiple keywords
+- Responses stored in dictionary -> can move it to database
+- Staff can update FAQ's without changing code
+
+### Future Improvements
+- AI intent detection
+- Integration with inventory system
+- CRM (customer relationship management) integration for customer tracking
+- Multilingual support (specifically for French customers)
